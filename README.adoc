@@ -1,0 +1,8 @@
+== HiveMQ Status Plugin
+
+This is a small plugin that returns 200 and "OK" on a get request.
+
+Supposed to be used when HTTP ping is more convinient than a simple tcp check, like when running HiveMQ behind a load balancer.
+
+---
+Based on https://github.com/hivemq/hivemq-rest-example-plugin
